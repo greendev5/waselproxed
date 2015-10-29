@@ -1,0 +1,66 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Translations
+*.mo
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+*.sqlite3
+# Logs:
+*.log
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+.idea/
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# local settings file
+settings_local.py
+settings_conf.py
+/barqspeed/barqspeed/settings/admin.py
+/bvpn/bvpn/settings/admin.py
+/iwasel/iwasel/settings/admin.py
+/waselpro/waselpro/settings/admin.py
+
+# celerycam pid file
+/celeryev.pid
+
+# celery beat files
+/admin/celerybeat.pid
+/admin/celerybeat-schedule
+
+# unwanted css files
+/barqspeed/main/static/css/account.css
+/barqspeed/main/static/css/forms.css
+/barqspeed/main/static/css/main.css
+/barqspeed/main/static/css/reg.css
+
+/root_symlink
